@@ -1,0 +1,95 @@
+<html>
+  <head>
+  	<link type="text/css" rel="stylesheet" href="main.css" />
+	<title>Kidcoder2.0's website!!!</title>
+<style type="text/css">
+
+</style>  
+<script>
+function answer(){
+	 var radio = document.getElementsByName("trivia");
+var selection = false;
+var message = "";
+
+ for( var i = 0; i < radio.length; i++) {
+if(radio[i].value == "Yes" && radio[i].checked == true) {
+selection = true;
+} //end if statement
+} //end for loop
+ if(selection == true) {
+message = message + "<b><p style='color:green'>Way to go!</p></b>";
+} else {
+message = message + "<b><p style='color:red'>Try again my friend.</p></b>";
+}
+document.getElementById("response").innerHTML = message;
+
+
+} //end function answer 
+
+</script>                                                                               
+</head>
+<body id="background"><center>
+ <p class= basketball>Basketball</p>
+ <a href="https://code.org/" onclick="return banner() ">
+	<header>Kidcoder2.0</header>
+</a>
+	<nav id="navmenu">
+
+		<ul>
+			<li class="navitem"> <a href="index.html" class="homelink">Home</a></li>
+			<li class="navitem"> <a href="PhotoGallery.html" class="homelink">Photo Gallery</a></li>
+			<li class="navitem"> <a href="VideoGallery.html" class="homelink">Video Gallery</a></li>
+		</ul>
+	</nav>
+	<br>
+	<br>
+	<br>
+
+
+<div id= "rightside">
+<img src= "https://www.stockfreeimages.com/Slam-dunk-thumb10204231.jpg"/>
+  <img src= "https://www.stockfreeimages.com/Slam-dunk-thumb8474241.jpg"/>
+    <img class=bearball src="https://www.stockfreeimages.com/Basketball-bear-thumb26835358.jpg">
+    <img src= "https://images.stockfreeimages.com/608/sfi/free_6083209.jpg">
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+
+  
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/quI--kovXgI" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vOROO63Xrpc" frameborder="0" allowfullscreen></iframe>
+<span class= "wrap-text">For more basketball fun vist <a href="url">www.nba.com</a></span>
+</div>
+</div>
+
+<div id="leftside">
+</ol>
+<form>
+	<div id="response"></div>
+<div class="wrap-trivia">
+ Who won the NBA finals in 2015?<br>
+<input type="radio" name="trivia" value="No"> Cleavland Cavaliers <br>
+<input type="radio" name="trivia" value="No"> San Antonio Spurs <br>
+<input type="radio" name="trivia" value="Yes"> Golden State Warriors <br>
+<input type="button" value="Submit" id="button" onclick="answer()"> </form>  <br>
+<center>answer hold up to mirror<br>
+sroirraw etats nedlog</center><br><br><br><br><br><br><br><br>
+<h1>My Basketball Favs</h1>
+<p  class="paragraph"> <u>Basketball</u> is my favorite sport.<br> My favorite <b>NBA</b> teams are the Lakers, Clippers, Celtics, and Warrriors. <br>My favorite player is <i>Steph Curry</i>. </p>
+<ol><div class="wrap-list"><center>
+	<h1> Basketball Facts</h1>
+	<li class= "listem"> Basketball was created by James Naismith.</li>
+    <li  class= "listem">The NBA record for most threes in a season is 402 by Steph Curry.</li>
+    <li  class= "listem"> Official basketball hoops are ten feet.</li></center></div>
+</div>
+
+
+<hr>
+
+</center>
+
+</body>
+</html> 

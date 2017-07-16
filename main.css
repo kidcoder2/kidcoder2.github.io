@@ -1,0 +1,107 @@
+
+
+ .listem {
+    color:darkturquoise;
+    font-size: 20px;
+
+ }
+ .paragraph{
+
+ 	color: blue;
+ 	font-size: 48px;
+ }
+ #background {
+
+ 	background-color: aquamarine;
+ }
+ .h1{
+ 	color:steelblue;
+ 	font-size: 100px;
+ }
+ #button{
+ 	width:75px;
+ 	height:30px;
+ 	background-color: cyan;
+ 	color:dodgerblue;
+ }
+ header{
+ 	height:25px;
+ 	width:10%;
+ 	border:2px solid black;
+ 	background-color: #b3e0ff;
+ 	margin-bottom: 5em;
+ }
+ footer{
+ 	height:25px;
+ 	width:10%;
+ 	border:2px solid black;
+ 	background-color: #b3e0ff;
+ }
+.wrap-trivia{
+	height: 150px;
+	width: 475px;
+	border: 5px dodgerblue;
+	background-color: cyan;
+	padding: 75px;
+}
+.wrap-list{
+	height: 175px;
+	width: 475px;
+	border: 5px dodgerblue;
+	background-color: cyan;
+}
+.wrap-text{
+	height: 10px;
+	width: 50px;
+	border: 5px dodgerblue;
+	background-color: cyan;
+
+
+}
+#ONE{
+    width:100px;
+ 	height:20px;
+ 	background-color: cyan;
+    display:inline-block;
+    position: absolute;
+    z-index: 2;
+    position: fixed;
+    left: 25%;
+ }
+ #TWO{
+    width:200px;
+ 	height:30px;
+ 	background-color: navy;
+    display:inline-block;
+    position: absolute;
+    z-index: 1;
+ }
+#THREE{
+    width:300px;
+ 	height:40px;
+ 	background-color: teal;
+    display:inline-block;
+    position: absolute;
+    position: relative;
+    top: 750;
+    left: 500;
+
+ }
+ #four{
+ 	height: 2048;
+ }
+ iframe{
+ 	margin : 15px;
+ }
+ .navitem{
+ 	list-style-type:none;
+ 	display: inline;
+ 	padding: 3em;
+ }
+ #navmenu{
+ 	width: 250px;
+ 	height: 30px;
+ 	margin: auto;
+ 	border: 10px;
+} 
+ 
