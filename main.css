@@ -8,7 +8,7 @@
  .paragraph{
 
  	color: blue;
- 	font-size: 48px;
+ 	font-size: 25px;
  }
  #background {
 
@@ -94,14 +94,40 @@
  	margin : 15px;
  }
  .navitem{
- 	list-style-type:none;
- 	display: inline;
- 	padding: 3em;
+    list-style-type: none;
+    display: inline;
+    padding-right: 1.5em;
+
+
  }
- #navmenu{
- 	width: 250px;
- 	height: 30px;
- 	margin: auto;
- 	border: 10px;
-} 
- 
+#navmenu{
+    width: 250px;
+    height: 30px;
+    margin: auto;
+}
+.homelink:hover{
+    color: purple;
+}
+
+.homelink:link{
+    color: red;
+}
+.homelink:active{
+    color:orange  ;
+}
+#rightside{
+    float: right;
+    width: 500px;
+}
+#leftside{
+    float:left;
+    width: 500px;
+}
+img{
+    height: 150px;
+    width: 150px;
+
+}
+.basketball{
+    font-size: 100;
+}
